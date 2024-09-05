@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu-bar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menu-bar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.menu-bar a:hover {
+    background-color: #575757;
+}
+
+.submenu-1 {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-height: 160px;
+    z-index: 1;
+}
+
+.submenu-1 a {
+    float: none;
+    color: white;
+    padding: 12x 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.submenu-1 a:hover {
+    background-color: #575757;
+}
+
+.menu-item:hover .submenu-1 {
+    display: inline;
+}
+
+.submenu-2 {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-height: 160px;
+    z-index: 1;
+}
+
+.submenu-2 a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.submenu-2 a:hover {
+    background-color: #575757;
+}
+
+.menu-item:hover .submenu-2 {
+    display: inline;
+}
+
+.submenu-3 {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-height: 160px;
+    z-index: 1;
+}
+
+.submenu-3 a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.submenu-3 a:hover {
+    background-color: #575757;
+}
+
+.menu-item:hover .submenu-3 {
+    display: block;
+}
+
+.submenu-4 {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-height: 160px;
+    z-index: 1;
+}
+
+.submenu-4 a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.submenu-4 a:hover {
+    background-color: #575757;
+}
+
+.menu-item:hover .submenu-4 {
+    display: block;
+}
